@@ -1,4 +1,4 @@
-# Trip-Share - Expense Splitting Application (Total time taken = 3 hours)
+# Trip-Share - Expense Splitting Application
 
 Trip-Share is a Spring Boot REST API application designed to help groups of people manage and split expenses during trips. It allows users to create groups, add expenses, and automatically calculate how much each person owes.
 
@@ -75,6 +75,13 @@ Trip-Share simplifies expense management for group trips by:
 - **Build Tool**: Maven
 - **Dependencies**: Lombok, Spring Web, Spring Data JPA
 - **AI Tool**: Codex
+
+## Github Link
+- https://github.com/Aayush-Panchasara/Trip-share
+
+## Time Duration
+
+- 3:30 PM to 6:30 PM
 
 ## Project Structure
 
