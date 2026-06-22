@@ -23,6 +23,8 @@ public class UserController {
 
     private final UserService userService;
 
+    private String name = "main";
+
     @PostMapping
     public User createUser(@RequestBody User user) {
         return userService.createUser(user);
