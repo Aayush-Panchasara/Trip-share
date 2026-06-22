@@ -41,4 +41,8 @@ public class UserController {
     public Boolean deleteUserById(){
         return true;
     };
+    @DeleteMapping
+    public Boolean deleteUserById2(){
+        return true;
+    };
 }
