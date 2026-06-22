@@ -10,6 +10,7 @@ import com.example.trip_share.service.GroupService;
 
 import lombok.RequiredArgsConstructor;
 
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -46,5 +47,10 @@ public class GroupController {
         groupService.addMemberToGroup(groupId, request.getUserId());
 
         return "Member added successfully";
+    }
+
+    @DeleteMapping("/{groupId}")
+    public Boolean deleteGroupById(@PathVariable Long groupId){
+        return true;
     }
 }
