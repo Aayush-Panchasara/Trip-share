@@ -23,7 +23,7 @@ public class UserController {
 
     private final UserService userService;
 
-    private String name = "main";
+    private String name = "conflict_branch";
 
     @PostMapping
     public User createUser(@RequestBody User user) {
